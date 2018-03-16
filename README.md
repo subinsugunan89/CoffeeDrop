@@ -35,6 +35,7 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
  - Use of Laravel Eloquent Resources (https://laravel.com/docs/5.6/eloquent-resources)
  - Use of MVC
  - Use of Eloquent, Requests and Routes
+ - IMPORTANT: Database migrations and a seeder to seed the data in the locations.csv file in this repo
  - Clean, well-commented code 
  - An updated Postman (https://www.getpostman.com/) file (included in this repository) which allows us to query the API
  
