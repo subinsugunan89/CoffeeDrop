@@ -32,6 +32,7 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
  - Use of MVC
  - Use of Eloquent, Requests and Routes
  - Clean, well-commented code 
+ - An updated Postman (https://www.getpostman.com/) file (included in this repository) which allows us to query the API
  
 ## Optional
  - A web or mobile app (?!) app to interract with the API
