@@ -10,15 +10,19 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
  1. Accepts a postcode, returns the address and opening times of the closest CoffeeDrop Location
  2. Accepts a postcode, creates a new location which will then show up in the results of endpoint 1
  3. Accepts a quantity of each of the three szies of used coffee pods as raw post data in the format 
+ 
  {
 	"Ristretto":10,
 	"Espresso":100,
   "Lungo":30
   }
+  
   and returns the amount in pounds and pence that the client will recieve in cashback according to the following rules:
   
   The first 50 capsules: [Ristretto = 2p, Espresso = 4p, Lungo = 6p]
+  
   Capsules 50-500: [Ristetto = 3p, Espresso = 6p Lungo = 9p]
+  
   Capsules 501+: [Ristretto = 5p, Espresso = 10p, Lungo = 15p]
  
 ## What we are looking for
