@@ -14,7 +14,7 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
  {
 	"Ristretto":10,
 	"Espresso":100,
-  "Lungo":30
+  	"Lungo":30
   }
   
   and returns the amount in pounds and pence that the client will recieve in cashback according to the following rules:
@@ -24,6 +24,10 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
   Capsules 50-500: [Ristetto = 3p, Espresso = 6p Lungo = 9p]
   
   Capsules 501+: [Ristretto = 5p, Espresso = 10p, Lungo = 15p]
+  
+  These requests should be saved in the database for...
+  
+  4. (Optional) Returns the last 5 calculations done by 3. as well as their result and data about the person sending the request (for the fake marketing team!)
  
 ## What we are looking for
  - Use of the Haversine Formula for calculating distances from latitude and longitude
