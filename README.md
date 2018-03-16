@@ -6,9 +6,9 @@ A brand new start up, CoffeeDrop, have spotted a gap in the market to build an A
 After initial meetings with CoffeeDrop, they have asked us to develop a small API which allows a customer using their mobile app to enter their postcode, and be informed of their nearest (as the crow flies) CoffeeDrop location and their opening times.
 The API must also allow CoffeeDrop to add a new recycling center, as well as calculate for the user of the app the total amount of "cashback" they will recieve according to an algorithm listed below.
  
-### Endpoints Required
+### Endpoints Required (Hint: see postman file)
  1. Accepts a postcode, returns the address and opening times of the closest CoffeeDrop Location
- 2. Accepts a postcode, creates a new location which will then show up in the results of endpoint 1
+ 2. Accepts a postcode and set of opening and closing times, creates a new location which will then show up in the results of endpoint 1
  3. Accepts a quantity of each of the three szies of used coffee pods as raw post data in the format 
  
  {
