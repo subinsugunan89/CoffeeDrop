@@ -45,5 +45,5 @@ The API must also allow CoffeeDrop to add a new recycling center, as well as cal
  
  
  ## Submission Instructions
-  - Please email steve.jones@image-plus.co.uk with a link to a fork of this github repository containing your response
+  - Please email your contact at Image+ with a link to a fork of this github repository containing your response
 
